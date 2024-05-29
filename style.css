@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #28cb8b;
+    --secondary-color: #263238;
+    --info-color: #2194f3;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    transition: 0.2s linear;
+}
+
+.header {
+    background-color: war;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 120px;
+    height: 84px;
+}
+
+.header,
+.navbar a {
+    margin: 0 1rem;
+    color: var(--neutral-black-color);
+}
+
+.header .navbar a:hover {
+    color: var(--primary-color);
+    border-bottom: 0.1rem solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+.btn-secondary {
+    color: var(--Primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.btn-secondary:hover {
+    border: 0.1rem solid var(--primary-color);
+}
+
+.container {
+    padding: 0 120px;
+}
+
+.hero {
+    background-color: var(--silver color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    color: var(--Grey-color);
+}
+
+h1 {
+    font-weight: 600;
+    font: size 4rem;
+}
+
+.hero .hero_content span {
+    color: var(--p primary-colorS)
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.clients .logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.suitable-items {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50%;
+}
+
+.suitable-card {
+    width: 30px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.unseen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unseen-right h3 {
+    font-size: 46px;
+}
+
+.unseen-right p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
